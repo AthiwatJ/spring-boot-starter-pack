@@ -1,3 +1,8 @@
 spring:
   application:
     name: starter-pack
+  datasource:
+    url: jdbc:postgresql://localhost:9090/SUPERDB
+    username: SUPERDB
+    password: SUPERDB
+    driver-class-name: org.postgresql.Driver
